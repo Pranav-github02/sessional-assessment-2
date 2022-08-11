@@ -7,6 +7,9 @@ header {
     background-size:cover;
     min-height:99vh
 }
+nav li{
+    font-size:20px;
+}
     header p {
         text-align: center;
         position: absolute;
@@ -49,6 +52,7 @@ header {
     color: white;
     font-weight:600;
 }
+
 .modal-dialog {
     max-width: 650px;
 }
@@ -68,10 +72,7 @@ header {
     }
     #contact .content .details {
         width: 38%;
-        /*position: absolute;*/
         left: 60px;
-        /*top: 50%;*/
-        /*margin-top: -190px;*/
         transform-style: preserve-3d;
         perspective: 1000px;
         z-index: 2;
