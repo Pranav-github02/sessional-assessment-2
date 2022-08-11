@@ -1,0 +1,17 @@
+header{
+    background-image: url(./wallpaper.jpg);
+    background-size: cover;
+    min-height: 96vh;
+}
+header .container .col-3{
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    width: 24%;
+    margin: 5px;
+}
+header .container .col-3 h2{
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+}
