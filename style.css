@@ -7,15 +7,15 @@ header {
     /*background-color: #17171a;*/
     min-height: 96vh;
 }
-.blogs .container .col-3{
-    height: 200px;
-    align-content: center;
-    text-align: center;
-    width: 24%;
-    margin: 5px;
-    background-image:url(./assets/album-cover.jpg);
-    background-size: cover;
-}
+    .blogs .container .col-3 {
+        height: 200px;
+        align-content: center;
+        text-align: center;
+        width: 24%;
+        margin: 5px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover.jpg);
+        background-size: cover;
+    }
 .blogs .container .col-3 a{
     text-decoration:none;
 }
