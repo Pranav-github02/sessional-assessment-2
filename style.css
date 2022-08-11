@@ -1,6 +1,10 @@
-.blogs{
-    background-image: url(./wallpaper.jpg);
-    background-size: cover;
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./assets/background.jpg);
+    background-size:cover;
+    min-height:97vh
+}
+.blogs {
+    /*background-color: #17171a;*/
     min-height: 96vh;
 }
 .blogs .container .col-3{
@@ -9,9 +13,17 @@
     text-align: center;
     width: 24%;
     margin: 5px;
+    background-image:url(./assets/album-cover.jpg);
+    background-size: cover;
+}
+.blogs .container .col-3 a{
+    text-decoration:none;
 }
 .blogs .container .col-3 h2{
     padding: 10px;
     margin-top: 50px;
     color: white;
+}
+.modal-dialog {
+    max-width: 650px;
 }
