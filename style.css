@@ -26,7 +26,22 @@ header {
         text-align: center;
         width: 24%;
         margin: 5px;
+        
+    }
+    .blogs .container #alb1 {
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover.jpg);
+        background-size: cover;
+    }
+    .blogs .container #alb2 {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover1.jpg);
+        background-size: cover;
+    }
+    .blogs .container #alb3 {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover2.jpg);
+        background-size: cover;
+    }
+    .blogs .container #alb4 {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover3.jpg);
         background-size: cover;
     }
 .blogs .container .col-3 a{
