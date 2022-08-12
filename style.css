@@ -60,23 +60,19 @@ nav li{
     margin-left: 0;
     margin-top:10px;
     vertical-align: top;
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 2;
     width: 100%;
 }
     #contact .content{
         display:flex;
         flex-wrap:wrap;
     }
-    #contact .content .details {
-        width: 38%;
-        left: 60px;
-        transform-style: preserve-3d;
-        perspective: 1000px;
-        z-index: 2;
-    }
+        #contact .content .details {
+            width: 38%;
+            left: 60px;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            z-index: 2;
+        }
             #contact .content .details .inner {
                 height: 100%;
                 float: left;
@@ -86,7 +82,8 @@ nav li{
                 align-items: center;
                 background: #fff;
                 padding: 70px 60px 30px;
-                margin-left:15px;
+                margin-left: 15px;
+                box-shadow: 0 0.15rem 0.6rem;
             }
                 #contact .content .details .inner .inner1 {
                     text-align: left;
@@ -121,3 +118,42 @@ nav li{
                             flex-direction:column;
                             margin-left:50px;
                         }
+footer {
+    padding: 1.5rem 0;
+    color: white;
+}
+
+    footer .container-fluid {
+        max-width: 1200px;
+        padding: 1.5rem 1.5rem;
+        margin: auto;
+    }
+
+        footer .container-fluid .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            footer .container-fluid .container img {
+                width: 40px;
+                height: 40px;
+            }
+
+            footer .container-fluid .container span {
+                font-size: 22px;
+            }
+
+            footer .container-fluid .container ul {
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+                footer .container-fluid .container ul li {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 1rem;
+                    font-size: 17px;
+                }
