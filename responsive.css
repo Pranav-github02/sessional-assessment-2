@@ -2,13 +2,14 @@
     header {
         min-height: 65vh;
     }
-    .blogs .container .col-3 {
-        width:22%;
-        height:150px;
 
+    .blogs .container .col-3 {
+        width: 22%;
+        height: 150px;
     }
+
         .blogs .container .col-3 h2 {
-            font-size:15px;
+            font-size: 15px;
         }
 }
 
@@ -20,22 +21,61 @@
     header nav li {
         font-size: 16px;
     }
+
+    footer .container-fluid .container img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .blogs #btn {
+        font-size: 1rem;
+    }
+
+    footer .container-fluid .container span {
+        font-size: 16px;
+    }
 }
+
 @media screen and (max-width: 500px) {
     header p {
-        top:40%;
+        top: 40%;
         font-size: 38px;
     }
 
-    @media (max-width: 420px) {
-        header .navbar-brand img {
-            width: 45px;
-            height: 35px;
-        }
+    #contact .content .details {
+        width: auto;
     }
 
-    @media screen and (min-height: 900px) {
-        header {
-            min-height: 70vh;
+        #contact .content .details .inner {
+            padding: 65px 25px 30px;
+            margin-left: 2px;
         }
+
+            #contact .content .details .inner h2 {
+                font-size:20px;
+            }
+}
+
+#contact .map {
+    width: auto;
+    margin-left: 10px;
+}
+
+    #contact .map iframe {
+        width: 390px;
     }
+
+}
+
+@media (max-width: 420px) {
+    header .navbar-brand img {
+        width: 45px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-height: 900px) {
+    header {
+        min-height: 70vh;
+    }
+}

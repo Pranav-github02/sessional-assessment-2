@@ -211,12 +211,3 @@ xhr.onreadystatechange = () => {
 }
 
 xhr.send()
-
-document.querySelector('.submitbtn').addEventListener('click', () => {
-    const album = document.querySelector('#albumname').value;
-    const image = document.querySelector('#image').value;
-    const temp = album.toLowerCase();
-    console.log(temp);
-
-})
-
