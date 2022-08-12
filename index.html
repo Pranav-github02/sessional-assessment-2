@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/ecf6cdd0ea.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css" />
 
     <script src="./script.js"></script>
 </head>
@@ -26,7 +27,7 @@
                     <img src="./assets/logo.png" alt="" width="60" height="50" class="d-inline-block align-text-top">
 
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-dark navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -35,7 +36,7 @@
                             <a class="nav-link text-white" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#blogs">Blogs</a>
+                            <a class="nav-link text-white submitbtn" href="#blogs">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">
@@ -175,8 +176,7 @@
                 <div style="display: flex;justify-content:center; align-content: center; text-align: center ">
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" value="Upload a file">
                         Upload a file
-                        <!--<input type="file" name="file" id="file" class="inputfile" />
-                        <label for="file">Choose a file</label>-->
+                        <i class="fa-solid fa-upload"></i>
                     </button>
                 </div>
             </div>
@@ -209,7 +209,7 @@
                 <div class="modal-body">
                     <input type="text" name="albumname" id="albumname" placeholder="Album Name" /><br />
                     <input type="file" name="file" id="file" class="inputfile" />
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary submitbtn" id="submitbtn">Submit</button>
                 </div>
             </div>
         </div>

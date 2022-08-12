@@ -1,71 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+
 body {
     font-family: 'Playfair Display SC', serif;
 }
+
 header {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./assets/background.jpg);
-    background-size:cover;
-    min-height:99vh
+    background-size: cover;
+    min-height: 99vh
 }
-nav li{
-    font-size:20px;
+
+nav li {
+    font-size: 20px;
 }
-    header p {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 64px;
-        letter-spacing: 2px;
-    }
-    .blogs .container .col-3 {
-        height: 200px;
-        align-content: center;
-        text-align: center;
-        width: 24%;
-        margin: 5px;
-        
-    }
-    .blogs .container #alb1 {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover.jpg);
-        background-size: cover;
-    }
-    .blogs .container #alb2 {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover1.jpg);
-        background-size: cover;
-    }
-    .blogs .container #alb3 {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover2.jpg);
-        background-size: cover;
-    }
-    .blogs .container #alb4 {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover3.jpg);
-        background-size: cover;
-    }
-.blogs .container .col-3 a{
-    text-decoration:none;
+
+header p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 64px;
+    letter-spacing: 2px;
 }
-.blogs .container .col-3 h2{
+
+.blogs .container .col-3 {
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    width: 24%;
+    margin: 5px;
+}
+
+.blogs .container #alb1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover.jpg);
+    background-size: cover;
+}
+
+.blogs .container #alb2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover1.jpg);
+    background-size: cover;
+}
+
+.blogs .container #alb3 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover2.jpg);
+    background-size: cover;
+}
+
+.blogs .container #alb4 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./assets/album-cover3.jpg);
+    background-size: cover;
+}
+
+.blogs .container .col-3 a {
+    text-decoration: none;
+}
+
+.blogs .container .col-3 h2 {
     padding: 10px;
     margin-top: 50px;
     color: white;
-    font-weight:600;
+    font-weight: 600;
 }
 
 .modal-dialog {
     max-width: 650px;
 }
+
 #contact {
     margin-left: 0;
-    margin-top:10px;
+    margin-top: 10px;
     vertical-align: top;
     width: 100%;
 }
-    #contact .content{
-        display:flex;
-        flex-wrap:wrap;
+
+    #contact .content {
+        display: flex;
+        flex-wrap: wrap;
     }
+
         #contact .content .details {
             width: 38%;
             left: 60px;
@@ -73,6 +86,7 @@ nav li{
             perspective: 1000px;
             z-index: 2;
         }
+
             #contact .content .details .inner {
                 height: 100%;
                 float: left;
@@ -85,6 +99,7 @@ nav li{
                 margin-left: 15px;
                 box-shadow: 0 0.15rem 0.6rem;
             }
+
                 #contact .content .details .inner .inner1 {
                     text-align: left;
                     margin-top: 30px;
@@ -93,6 +108,7 @@ nav li{
                     width: 100%;
                     position: relative;
                 }
+
                     #contact .content .details .inner .inner1 li {
                         text-align: left;
                         float: left;
@@ -103,21 +119,25 @@ nav li{
                         margin-bottom: 12px;
                         font-size: 15px;
                     }
+
                         #contact .content .details .inner .inner1 li span {
                             float: left;
                             padding-bottom: 10px;
                             color: #666;
                             width: 100%;
                         }
-                        #contact .content .details .inner .inner1 a {
-                            text-decoration: none;
-                            color: #000;
-                        }
-                        #contact .map{
-                            width:55%;
-                            flex-direction:column;
-                            margin-left:50px;
-                        }
+
+                    #contact .content .details .inner .inner1 a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+
+    #contact .map {
+        width: 55%;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
 footer {
     padding: 1.5rem 0;
     color: white;
