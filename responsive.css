@@ -54,18 +54,18 @@
             #contact .content .details .inner h2 {
                 font-size:20px;
             }
+            #contact .map {
+                width: auto;
+                margin-left: 10px;
+            }
+            
+                #contact .map iframe {
+                    width: 390px;
+                }
+            
+            }
 }
 
-#contact .map {
-    width: auto;
-    margin-left: 10px;
-}
-
-    #contact .map iframe {
-        width: 390px;
-    }
-
-}
 
 @media (max-width: 420px) {
     header .navbar-brand img {
